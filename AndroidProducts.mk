@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cupidr.mk
+    $(LOCAL_DIR)/aosp_cupidr.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_cupidr-user \
-    lineage_cupidr-userdebug \
-    lineage_cupidr-eng
+    aosp_cupidr-user \
+    aosp_cupidr-userdebug \
+    aosp_cupidr-eng

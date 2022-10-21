@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from cupidr device
 $(call inherit-product, device/realme/cupidr/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_cupidr
+PRODUCT_NAME := aosp_cupidr
 PRODUCT_DEVICE := cupidr
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
