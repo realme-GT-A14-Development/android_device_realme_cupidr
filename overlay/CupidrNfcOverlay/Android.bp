@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "CupidrNfcOverlay",
+    device_specific: true,
+}
