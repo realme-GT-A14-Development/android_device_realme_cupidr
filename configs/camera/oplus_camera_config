@@ -540,13 +540,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.camera.support.activity.rotate",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
   "VendorTag": "com.oplus.customize.night.filter.support",
   "Type": "Byte",
   "Count": "1",
