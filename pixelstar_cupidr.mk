@@ -12,9 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/cupidr/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixelstar/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_cupidr
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP  := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+USE_PIXEL_CHARGER := true
+
+PRODUCT_NAME := pixelstar_cupidr
 PRODUCT_DEVICE := cupidr
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme

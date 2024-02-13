@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cupidr.mk
+    $(LOCAL_DIR)/pixelstar_cupidr.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_cupidr-user \
-    lineage_cupidr-userdebug \
-    lineage_cupidr-eng
+    pixelstar_cupidr-user \
+    pixelstar_cupidr-userdebug \
+    pixelstar_cupidr-eng
